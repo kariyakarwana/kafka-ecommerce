@@ -60,8 +60,10 @@ Kafka Topic: inventory_updated
       |
       v
 Notification Service
-Folder Structure
-kafka-ecommerce-ca03/
+
+##Folder Structure
+
+kafka-ecommerce/
 │
 ├── docker-compose.yml
 ├── README.md
@@ -70,14 +72,15 @@ kafka-ecommerce-ca03/
 ├── payment-service/
 ├── inventory-service/
 └── notification-service/
-How to Run the Project
+
+##How to Run the Project
 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/kafka-ecommerce-ca03.git
-cd kafka-ecommerce-ca03
+git clone https://github.com/kariyakarwana/kafka-ecommerce.git
+cd kafka-ecommerce
 2. Start All Services
 docker compose up --build
 
-This command starts:
+##This command starts:
 
 Apache Kafka
 Order Service
